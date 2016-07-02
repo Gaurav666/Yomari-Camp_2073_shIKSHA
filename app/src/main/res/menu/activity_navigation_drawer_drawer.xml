@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/oppfinal"
+            android:title="Opportunity" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/bookfinal"
+            android:title="Our Philosophy" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/helpfinal"
+            android:title="How We Work" />
+
+    </group>
+    <group>
+        <item
+            android:id="@+id/About"
+            android:icon="@drawable/aboutfinal"
+            android:title="About">
+
+            <menu>
+                <item
+                    android:id="@+id/contact"
+                    android:title="Contact" />
+                <item
+                    android:id="@+id/email"
+                    android:title="Email" />
+                <item
+                    android:id="@+id/location"
+                    android:title="Location" />
+            </menu>
+
+        </item>
+    </group>
+    <group>
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/logoutfinal"
+            android:title="Sign Out" />
+    </group>
+
+</menu>
